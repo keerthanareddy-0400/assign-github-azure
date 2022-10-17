@@ -1,0 +1,12 @@
+<form action="/predict" method="post">
+    <label for="bed" colo>Total_Balcony:  </label>
+    <input type="text" name="bed" placeholder="no of bedrroms" required="required">
+    <label for="bath" colo>Total_Bathrooms:  </label>
+    <input type="text" name="bath" placeholder="no of bathrooms" required="required">
+    <label for="sqft" colo>sqft_living:  </label>
+    <input type="text" name="sqft" placeholder="for ex 900 sqft" required="required">
+    <label for="sqlot" colo>sqft_lot:  </label>
+    <input type="text" name="sqlot" placeholder="sqft_lot" required="required">
+    <input type="submit" value="Submit">
+</form>
+{{ prediction_text }}
