@@ -15,8 +15,8 @@ spec:
       nodeSelector:
         "beta.kubernetes.io/os": linux
       containers:
-      - name: acr4at
-        image: acr4at.azurecr.io/bhapp4at:79
+      - name: cr4assign
+        image: cr4assign.azurecr.io/assignhouse:2
         env:
         - name: ALLOW_EMPTY_PASSWORD
           value: "yes"
@@ -56,8 +56,8 @@ spec:
       nodeSelector:
         "beta.kubernetes.io/os": linux
       containers:
-      - name: acr4at
-        image: acr4at.azurecr.io/bhapp4at:79
+      - name: cr4assign
+        image: cr4assign.azurecr.io/assignhouse:2
         ports:
         - containerPort: 80
         resources:
